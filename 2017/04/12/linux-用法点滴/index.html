@@ -5,19 +5,17 @@
   
   <title>linux 用法点滴 | Advanced technology</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="修改前缀显示没有文件先创建一下12cd ~touch .bash_profile
-当前提示符显示方式12345echo $PS1\h:\W \u\$cd ~open -e .bash_profileexport PS1=&amp;amp;quot;\\u \\w$&amp;amp;quot;">
+  <meta name="description" content="修改前缀显示没有文件先创建一下 12cd ~touch .bash_profile 当前提示符显示方式 12345echo $PS1\h:\W \u\$cd ~open -e .bash_profileexport PS1&#x3D;&amp;quot;\\u \\w$&amp;quot;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux 用法点滴">
-<meta property="og:url" content="http://yoursite.com/2017/04/12/linux-用法点滴/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/04/12/linux-%E7%94%A8%E6%B3%95%E7%82%B9%E6%BB%B4/index.html">
 <meta property="og:site_name" content="Advanced technology">
-<meta property="og:description" content="修改前缀显示没有文件先创建一下12cd ~touch .bash_profile
-当前提示符显示方式12345echo $PS1\h:\W \u\$cd ~open -e .bash_profileexport PS1=&amp;amp;quot;\\u \\w$&amp;amp;quot;">
-<meta property="og:updated_time" content="2017-04-12T03:03:49.000Z">
+<meta property="og:description" content="修改前缀显示没有文件先创建一下 12cd ~touch .bash_profile 当前提示符显示方式 12345echo $PS1\h:\W \u\$cd ~open -e .bash_profileexport PS1&#x3D;&amp;quot;\\u \\w$&amp;quot;">
+<meta property="article:published_time" content="2017-04-12T02:54:03.000Z">
+<meta property="article:modified_time" content="2017-04-12T03:03:49.000Z">
+<meta property="article:author" content="afra">
+<meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="linux 用法点滴">
-<meta name="twitter:description" content="修改前缀显示没有文件先创建一下12cd ~touch .bash_profile
-当前提示符显示方式12345echo $PS1\h:\W \u\$cd ~open -e .bash_profileexport PS1=&amp;amp;quot;\\u \\w$&amp;amp;quot;">
   
     <link rel="alternate" href="/atom.xml" title="Advanced technology" type="application/atom+xml">
   
@@ -27,10 +25,12 @@
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
-  <link rel="stylesheet" href="/css/style.css">
+  
+<link rel="stylesheet" href="/css/style.css">
+
   
 
-</head>
+<meta name="generator" content="Hexo 4.2.1"></head>
 
 <body>
   <div id="container">
@@ -57,10 +57,10 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
       </div>
     </div>
   </div>
@@ -68,7 +68,7 @@
       <div class="outer">
         <section id="main"><article id="post-linux-用法点滴" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/04/12/linux-用法点滴/" class="article-date">
+    <a href="/2017/04/12/linux-%E7%94%A8%E6%B3%95%E7%82%B9%E6%BB%B4/" class="article-date">
   <time datetime="2017-04-12T02:54:03.000Z" itemprop="datePublished">2017-04-12</time>
 </a>
     
@@ -88,16 +88,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="修改前缀显示"><a href="#修改前缀显示" class="headerlink" title="修改前缀显示"></a>修改前缀显示</h3><p>没有文件先创建一下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd ~</div><div class="line">touch .bash_profile</div></pre></td></tr></table></figure></p>
-<p>当前提示符显示方式<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">echo</span> <span class="variable">$PS1</span></div><div class="line">\h:\W \u\$</div><div class="line"><span class="built_in">cd</span> ~</div><div class="line">open <span class="_">-e</span> .bash_profile</div><div class="line"><span class="built_in">export</span> PS1=&amp;quot;\\u \\w$&amp;quot;</div></pre></td></tr></table></figure></p>
+        <h3 id="修改前缀显示"><a href="#修改前缀显示" class="headerlink" title="修改前缀显示"></a>修改前缀显示</h3><p>没有文件先创建一下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~</span><br><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure>
+<p>当前提示符显示方式</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="variable">$PS1</span></span><br><span class="line">\h:\W \u\$</span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">open -e .bash_profile</span><br><span class="line"><span class="built_in">export</span> PS1=&amp;quot;\\u \\w$&amp;quot;</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/04/12/linux-用法点滴/" data-id="cj1ee95dh0005sunjvwjvg7ri" class="article-share-link">Delen</a>
+      <a data-url="http://yoursite.com/2017/04/12/linux-%E7%94%A8%E6%B3%95%E7%82%B9%E6%BB%B4/" data-id="ckcahn3r000055lnj4wnxcqsg" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/" rel="tag">linux</a></li></ul>
 
     </footer>
   </div>
@@ -107,7 +109,7 @@
   
   
     <a href="/2017/04/04/Markdown/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Ouder</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">Markdown</div>
     </a>
   
@@ -125,9 +127,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Labels</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/" rel="tag">linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/" rel="tag">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
     </div>
   </div>
 
@@ -137,14 +139,14 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+      <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px;">随笔</a>
     </div>
   </div>
 
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archieven</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li></ul>
     </div>
@@ -154,12 +156,12 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recente berichten</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2017/04/12/linux-用法点滴/">linux 用法点滴</a>
+            <a href="/2017/04/12/linux-%E7%94%A8%E6%B3%95%E7%82%B9%E6%BB%B4/">linux 用法点滴</a>
           </li>
         
           <li>
@@ -186,7 +188,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2017 afra<br>
+      &copy; 2020 afra<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
@@ -204,11 +206,17 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
 
 
 <script src="/js/script.js"></script>
+
 
   </div>
 </body>
