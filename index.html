@@ -186,6 +186,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/%20" rel="section">
             
@@ -316,6 +336,9 @@
 <p>如果不是转义原因，看存储的数据是否完整，有时候字段定义过短，可用mediumtext。</p>
 </li>
 </ol>
+</li>
+<li><p>获取路径</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">echo</span> <span class="keyword">__FILE__</span> ; <span class="comment">// 取得当前文件的绝对地址，结果：D:\www\test.php</span></span><br><span class="line"><span class="keyword">echo</span> dirname(<span class="keyword">__FILE__</span>); <span class="comment">// 取得当前文件所在的绝对目录，结果：D:\www\</span></span><br><span class="line"><span class="keyword">echo</span> dirname(dirname(<span class="keyword">__FILE__</span>)); <span class="comment">//取得当前文件的上一层目录名，结果：D:\</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>usleep</p>
 <p>注：测试test_usleep.o时，不要运行其他程序。</p>
