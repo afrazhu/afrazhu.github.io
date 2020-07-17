@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>php常用语法 | Advanced technology</title>
+  <title>leetcode 简介 | Advanced technology</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="strip_tags 去掉html标签  get_current_user() 获取当前 PHP 脚本所有者名称  memory_get_usage() 获取当前内存  json_decode  没有结果 json_last_error() 输出最后一个错误 ，4为语法错误， 如果不是转义原因，看存储的数据是否完整，有时候字段定义过短，可用mediumtext。    获取路径 123echo">
+  <meta name="description" content="相关链接 中文网站：https:&#x2F;&#x2F;leetcode-cn.com  英文网站：https:&#x2F;&#x2F;leetcode.com&#x2F;problemset&#x2F;all&#x2F;  题目分类整理：https:&#x2F;&#x2F;leetcode-cn.com&#x2F;circle&#x2F;article&#x2F;48kq9d&#x2F;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="php常用语法">
-<meta property="og:url" content="http://yoursite.com/2020/07/09/php/common/index.html">
+<meta property="og:title" content="leetcode 简介">
+<meta property="og:url" content="http://yoursite.com/2020/07/11/algorithm/leetcodeBrief/leetcodeBrief/index.html">
 <meta property="og:site_name" content="Advanced technology">
-<meta property="og:description" content="strip_tags 去掉html标签  get_current_user() 获取当前 PHP 脚本所有者名称  memory_get_usage() 获取当前内存  json_decode  没有结果 json_last_error() 输出最后一个错误 ，4为语法错误， 如果不是转义原因，看存储的数据是否完整，有时候字段定义过短，可用mediumtext。    获取路径 123echo">
-<meta property="article:published_time" content="2020-07-09T11:33:05.000Z">
-<meta property="article:modified_time" content="2020-07-09T12:57:29.500Z">
+<meta property="og:description" content="相关链接 中文网站：https:&#x2F;&#x2F;leetcode-cn.com  英文网站：https:&#x2F;&#x2F;leetcode.com&#x2F;problemset&#x2F;all&#x2F;  题目分类整理：https:&#x2F;&#x2F;leetcode-cn.com&#x2F;circle&#x2F;article&#x2F;48kq9d&#x2F;">
+<meta property="article:published_time" content="2020-07-11T02:45:29.000Z">
+<meta property="article:modified_time" content="2020-07-11T08:55:19.960Z">
 <meta property="article:author" content="afra">
 <meta name="twitter:card" content="summary">
   
@@ -65,14 +65,14 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-php/common" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-algorithm/leetcodeBrief/leetcodeBrief" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/07/09/php/common/" class="article-date">
-  <time datetime="2020-07-09T11:33:05.000Z" itemprop="datePublished">2020-07-09</time>
+    <a href="/2020/07/11/algorithm/leetcodeBrief/leetcodeBrief/" class="article-date">
+  <time datetime="2020-07-11T02:45:29.000Z" itemprop="datePublished">2020-07-11</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/php/">php</a>
+    <a class="article-category-link" href="/categories/AI/">AI</a>
   </div>
 
   </div>
@@ -83,7 +83,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      php常用语法
+      leetcode 简介
     </h1>
   
 
@@ -91,64 +91,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ul>
-<li><p>strip_tags</p>
-<p>去掉html标签</p>
+        <h4 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h4><ul>
+<li><p>中文网站：<a href="https://leetcode-cn.com" target="_blank" rel="noopener">https://leetcode-cn.com</a></p>
 </li>
-<li><p>get_current_user()</p>
-<p>获取当前 PHP 脚本所有者名称</p>
+<li><p>英文网站：<a href="https://leetcode.com/problemset/all/" target="_blank" rel="noopener">https://leetcode.com/problemset/all/</a></p>
 </li>
-<li><p>memory_get_usage()</p>
-<p>获取当前内存</p>
-</li>
-<li><p>json_decode</p>
-<ol>
-<li><p>没有结果</p>
-<p>json_last_error() 输出最后一个错误 ，4为语法错误，</p>
-<p>如果不是转义原因，看存储的数据是否完整，有时候字段定义过短，可用mediumtext。</p>
-</li>
-</ol>
-</li>
-<li><p>获取路径</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">echo</span> <span class="keyword">__FILE__</span> ; <span class="comment">// 取得当前文件的绝对地址，结果：D:\www\test.php</span></span><br><span class="line"><span class="keyword">echo</span> dirname(<span class="keyword">__FILE__</span>); <span class="comment">// 取得当前文件所在的绝对目录，结果：D:\www\</span></span><br><span class="line"><span class="keyword">echo</span> dirname(dirname(<span class="keyword">__FILE__</span>)); <span class="comment">//取得当前文件的上一层目录名，结果：D:\</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>usleep</p>
-<p>注：测试test_usleep.o时，不要运行其他程序。</p>
-<p>1.没有”usleep(ElapsedTime);”这句代码</p>
-<p>CPU占用率：99.9%</p>
-<p>PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND</p>
-<p>9540 root 20 0 3368 893 760 R 99.9 0.0 0:07.52 test_usleep.o</p>
-<p>2.#define ElapsedTime 1       // 1微秒</p>
-<p>CPU占用率：99.9%</p>
-<p>PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND</p>
-<p>9556 root 20 0 3368 872 760 R 99.9 0.0 0:05.10 test_usleep.o</p>
-<p>3.#define ElapsedTime 10      // 10微秒</p>
-<p>CPU占用率：14.0%</p>
-<p>PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND</p>
-<p>9596 root 20 0 3368 868 760 R 14.0 0.0 0:09.99 test_usleep.o</p>
-<p>4.#define ElapsedTime 100     // 100微秒</p>
-<p>CPU占用率：11.7%</p>
-<p>PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND</p>
-<p>9610 root 20 0 3368 868 760 S 11.7 0.0 0:05.16 test_usleep.o</p>
-<p>5.#define ElapsedTime 1000    // 1000微秒=1毫秒</p>
-<p>CPU占用率：1.7%</p>
-<p>PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND</p>
-<p>9624 root 20 0 3368 868 760 S 1.7 0.0 0:00.79 test_usleep.o</p>
-<p>6.#define ElapsedTime 10000   // 10000微秒=10毫秒</p>
-<p>CPU占用率：0.3%</p>
-<p>PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND</p>
-<p>9634 root 20 0 3368 868 760 S 0.3 0.0 0:00.04 test_usleep.o</p>
-<p>7.#define ElapsedTime 100000  // 100000微秒=100毫秒</p>
-<p>CPU占用率：0.0%</p>
-<p>PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND</p>
-<p>9644 root 20 0 3368 872 760 S 0.0 0.0 0:00.00 test_usleep.o</p>
+<li><p>题目分类整理：<a href="https://leetcode-cn.com/circle/article/48kq9d/" target="_blank" rel="noopener">https://leetcode-cn.com/circle/article/48kq9d/</a></p>
 </li>
 </ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/09/php/common/" data-id="ckcervntn0004j2njfer2dqhz" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/07/11/algorithm/leetcodeBrief/leetcodeBrief/" data-id="ckcpvimd30006sfnjhtq7aqrd" class="article-share-link">Share</a>
       
       
     </footer>
@@ -157,19 +112,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/07/11/algorithm/leetcodeBrief/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/07/11/python/common/common/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          leetcode 简介
+          python 常用
         
       </div>
     </a>
   
   
-    <a href="/2020/07/06/java/jpa/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/07/09/mac/mac/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">jpa使用相关</div>
+      <div class="article-nav-title">[object Object]</div>
     </a>
   
 </nav>
@@ -227,23 +182,23 @@
       <ul>
         
           <li>
-            <a href="/2020/07/11/python/common/">python 常用</a>
+            <a href="/2020/07/15/java/TODO/">TODO</a>
           </li>
         
           <li>
-            <a href="/2020/07/11/algorithm/leetcodeBrief/">leetcode 简介</a>
+            <a href="/2020/07/15/database/mysql/">mysql 常用</a>
           </li>
         
           <li>
-            <a href="/2020/07/09/php/common/">php常用语法</a>
+            <a href="/2020/07/13/java/common/">java 常用</a>
           </li>
         
           <li>
-            <a href="/2020/07/06/java/jpa/">jpa使用相关</a>
+            <a href="/2020/07/11/python/common/common/">python 常用</a>
           </li>
         
           <li>
-            <a href="/2017/04/12/linux-%E7%94%A8%E6%B3%95%E7%82%B9%E6%BB%B4/">linux 用法点滴</a>
+            <a href="/2020/07/11/algorithm/leetcodeBrief/leetcodeBrief/">leetcode 简介</a>
           </li>
         
       </ul>
